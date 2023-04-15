@@ -20,26 +20,29 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+.header {
+   padding: 10px 40px 40px;
+   background-color: #1f2937;
+}
 
 .header-one, .header-two {
     background-color: #1f2937;
     display: flex;
-    justify-content: center;
-    padding: 18px;
+    /* padding: 18px; */
 }
 
 .header-two {
    
     gap: 40px;
     flex-wrap: wrap;
-    padding-bottom: 60px;
+    justify-content: center;
+    /* padding-bottom: 60px; */
 
 }
 
 .header-one {
-    justify-content: space-around;
-    padding-bottom: 40px;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
 }
 
 .random {
@@ -60,6 +63,7 @@ body {
     color: #F9FAF8;
     font-weight: bold;
     flex-shrink: 0;
+
 }
 
 .links, .intro-two {
@@ -122,13 +126,18 @@ body {
     font-size: 18px;
 }
 
+
+
 .one, .two, .three, .four {
-    width: 150px;
-    height: 150px;
+
+    width: 170px;
+    height: 170px;
     border: #3882f6 solid 2px;
     border-radius: 10px;
     
 }
+
+
 
 .squares {
     flex-wrap: wrap;
@@ -138,9 +147,9 @@ body {
 }
 
 .p {
-   max-width: 100px;
+   max-width: 170px;
    text-align: center;
-   margin-top: 5px;
+   margin-top: 10px;
 }
 
 .inspiring {
